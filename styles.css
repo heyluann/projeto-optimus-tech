@@ -1,0 +1,18 @@
+@import url("./styles/header.css");
+@import url("./styles/main.css");
+
+:root {
+    --cor-primaria: #667085;
+    --cor-secundaria: #3A404E;
+    --cor-terciaria: #8E2424;
+    --cor-de-fundo: #fff;
+    --cor-de-titulo: #101828;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
