@@ -23,11 +23,12 @@
 
 .navegacao {
     display: flex;
+    margin-right: auto;
 }
 
 .navegacao__lista {
     display: flex;
-    margin-right: 18em;
+    margin-left: 5em;
 }
 
 .navegacao__lista__link {
@@ -58,4 +59,8 @@
     color: var(--cor-de-fundo);
     padding: 0.8em 1.2em;
     border-radius: 10px;
+}
+
+.botoes__cadastrar:hover {
+    background-color: var(--cor-hover);
 }

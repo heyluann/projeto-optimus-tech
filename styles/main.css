@@ -1,12 +1,12 @@
-.principal {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 7em;
-}
+
 
 .principal__sobre {
-    width: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 7em 20em;
 }
 
 .principal__sobre__sobre-nos {
@@ -25,4 +25,32 @@
 .texto {
     font-size: 20px;
     color: var(--cor-primaria);
+}
+
+.principal__metricas {
+    display: flex;
+    justify-content: center;
+    margin: 0 3em 5em 3em;
+    gap: 7em;
+}
+
+.principal__metricas__metrica {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 15%;
+}
+
+.span-numero {
+    font-size: 60px;
+    color: var(--cor-terciaria);
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.span-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-de-titulo);
+    margin-bottom: 0.5em;
 }
