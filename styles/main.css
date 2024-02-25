@@ -30,7 +30,7 @@
 .principal__metricas {
     display: flex;
     justify-content: center;
-    margin: 0 3em 5em 3em;
+    margin: 10em 3em 15em 3em;
     gap: 7em;
 }
 
@@ -57,4 +57,33 @@
 
 .paragrafo-texto {
     color: var(--cor-primaria);
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0 10em 0;
+}
+
+.vagas-abertas {
+    color: var(--cor-terciaria);
+    font-weight: 500;
+    font-size: 14px;
+    background-color: var(--cor-transparente);
+    padding: 0.4em 0.9em;
+    border-radius: 20px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-de-titulo);
+    margin: 0.8em 0;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    color: var(--cor-primaria);
+    margin-bottom: 3.5em;
 }
