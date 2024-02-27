@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1em 0 10em 0;
+    margin: 1em 0 1em 0;
 }
 
 .vagas-abertas {
@@ -86,4 +86,43 @@
     font-size: 20px;
     color: var(--cor-primaria);
     margin-bottom: 3.5em;
+}
+
+.cargos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20em;
+}
+
+.cargos__titulo {
+    margin: 2em 0 0.6em 0;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-de-titulo);
+}
+
+.vaga {
+    width: 70%;
+    height: 4em;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid var(--cor-de-borda);
+    border-radius: 10px;
+}
+
+.titulo-vaga {
+    color: var(--cor-de-titulo);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.informacoes {
+    margin-top: 2em;
+}
+
+.informacoes span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    padding-right: 1em;
 }
