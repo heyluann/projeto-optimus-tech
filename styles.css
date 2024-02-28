@@ -1,5 +1,6 @@
 @import url("./styles/header.css");
 @import url("./styles/main.css");
+@import url("./styles/rodape.css");
 
 :root {
     --cor-primaria: #667085;
@@ -10,6 +11,9 @@
     --cor-de-titulo: #101828;
     --cor-hover: #ff5151;
     --cor-de-borda: #c1c2c5;
+    --cor-input: #d0d5dd;
+    --cor-rodape: #f9fafb;
+    --cor-copy: #98a2b3;
     --fonte-principal: 'Inter', sans-serif;
 }
 

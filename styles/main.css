@@ -126,3 +126,49 @@
     color: var(--cor-primaria);
     padding-right: 1em;
 }
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 22em;
+    background-color: var(--cor-transparente);
+    border-radius: 10px;
+}
+
+.depoimentos-span__titulo {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-terciaria);
+    margin: 4em 0 1.5em 0;
+}
+
+.depoimentos__titulo {
+    font-size: 36px;
+    color: var(--cor-de-titulo);
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.depoimentos__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-perfil {
+    margin: 1em 0;
+}
+
+.nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-de-titulo);
+}
+
+.profissao {
+    font-size: 14px;
+    color: var(--cor-primaria);
+    margin: 0.5em 0 2.5em 0;
+}
